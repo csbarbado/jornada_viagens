@@ -11,11 +11,12 @@
     width: 100%;
     background: url('../img/hero-mobile.jpg') no-repeat;
     background-size: cover;
+    margin-bottom: 88px;
 }
 
 .hero h2 {
-    padding: 88px 24px;
-    margin: 0px;
+    padding: 0px 24px;
+    margin-bottom: 88px;
     font-weight: var(--text-weight);
     font-size: 20px;
     line-height: 1.5;
@@ -30,7 +31,7 @@
     }
 
     .hero h2 {
-        padding: 88px 60px;
+        padding: 0 60px;
         font-size: 32px;
     }
 }
@@ -43,10 +44,11 @@
     }
 
     .hero h2 {
-        padding: 88px 120px;
+        padding: 0 120px;
         font-size: 32px;
     }
 }
+
 @media screen and (min-width: 1920px) {
     .hero-img {
         height: 620px;
@@ -55,7 +57,7 @@
     }
 
     .hero h2 {
-        padding: 88px 160px;
+        padding: 0 160px;
         font-size: 32px;
     }
 }
