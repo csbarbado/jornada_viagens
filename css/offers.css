@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     gap: 24px;
-        margin-bottom: 88px;
+    margin-bottom: 88px;
 }
 
 .offers-cards .card {
@@ -43,7 +43,7 @@
     display: inline-block;
 }
 
-.offers-cards .button {
+/*.offers-cards .button {
     width: 280px;
     height: 64px;
     color: var(--text-secondary-color);
@@ -54,7 +54,7 @@
     display: inline-block;
     text-decoration: none;
     line-height: 64px;
-}
+}*/
 
 .offers-cards .card.japao {
     background: url(../img/bg_card_japao.png) no-repeat;
