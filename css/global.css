@@ -1,29 +1,24 @@
 @font-face {
-    font-family: "Montserrat";
-    src: url("../fonts/Montserrat-VariableFont_wght.ttf");
-    font-style: normal;
-    font-display: swap;
+  font-family: "Montserrat";
+  src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+  font-style: normal;
+  font-display: swap;
 }
 
-/*Definindo cores do background, botões e textos*/
 :root {
-    --background-primary-color: #ffffff;
-    --background-secondary-color: #f5f5f5;
-    --background-tertiary-color: #000000;
+  --primary-color: #8f0101;
+  --secondary-color: #b81515;
 
-    --button-primary-color: #BF0101;
-    --button-secondary-color: #B81515;
+  --background-primary-color: #ffffff;
+  --background-secondary-color: #f5f5f5;
+  --background-tertiary-color: #000000;
 
-    --text-primary-color: #222222;
-    --text-secondary-color: #FFFFFF;
+  --text-primary-color: #222222;
+  --text-secondary-color: #ffffff;
 
-    --title-weight: 700;
-    --text-weight: 400;
-    --menu-text-weight: 500;
-
-    --primary-color: #BF0101;
-    --secondary-color: #B81515;
-
+  --title-weight: 700;
+  --text-weight: 400;
+  --menu-text-weight: 500;
 }
 
 /* CSS RESET */
@@ -38,87 +33,91 @@ input,
 select,
 textarea,
 button {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "Montserrat";
-    color: var(--text-primary-color);
+  font-family: "Montserrat";
+  color: var(--text-primary-color);
 }
 
-/* Mobile first */
 section {
-    width: 312px;
-    margin: 0 auto 88px;
+  width: 312px;
+  margin: 0 auto 88px;
 }
 
 section.hero {
-    width: 100%;
-    margin: 0;
+  width: 100%;
+  margin: 0;
 }
 
 .section-title {
-    width: 280px;
-    margin: 0 auto;
+  width: 280px;
+  margin: 0 auto 32px;
 }
-
 .section-title h2 {
-    font-size: 28px;
-    font-weight: var(--title-weight);
-    margin: 0;
-    text-align: center;
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  margin: 0;
+  text-align: center;
+}
+.section-title hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px auto 32px;
 }
 
-.section-title hr {
-    width: 180px;
-    height: 4px;
-    background-color: var(--secondary-color);
-    border: none;
-    margin: 16px auto 32px;
+.content-title {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+}
+.content-text {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 32px;
 }
 
 .button {
-    min-width: 280px;
-    height: 64px;
-    color: var(--text-secondary-color);
-    font-weight: var(--title-weight);
-    font-size: 20px;
-    background-color: var(--secondary-color);
-    border-radius: 16px;
-    display: inline-block;
-    text-decoration: none;
-    line-height: 64px;
-    text-align: center;
+  min-width: 280px;
+  height: 64px;
+  color: var(--text-secondary-color);
+  font-weight: var(--title-weight);
+  font-size: 20px;
+  background-color: var(--secondary-color);
+  border-radius: 16px;
+  display: inline-block;
+  text-decoration: none;
+  line-height: 64px;
+  text-align: center;
 }
 
 @media screen and (min-width: 768px) {
-    section {
-        width: 648px;
-    }
-
-    .section-title {
-        width: 100%;
-    }
-
-    .section-title h2 {
-        font-size: 32px;
-    }
+  section {
+    width: 648px;
+  }
+  .section-title {
+    width: 100%;
+  }
+  .section-title h2 {
+    font-size: 32px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-    section {
-        width: 900px;
-    }
-
-    .button:hover {
-        background-color: var(--primary-color);
-    }
+  section {
+    width: 900px;
+  }
+  .button:hover {
+    background-color: var(--primary-color);
+  }
 }
 
-@media (min-width: 1440px) {
-    section {
-        width: 1200px;
-    }
+@media screen and (min-width: 1440px) {
+  section {
+    width: 1200px;
+  }
 }
