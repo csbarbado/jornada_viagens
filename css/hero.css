@@ -6,17 +6,11 @@
     display: none;
 }
 
-section.hero {
-    width: 100%;
-    margin: 0;
-}
-
 .hero-img {
     height: 400px;
     width: 100%;
     background: url('../img/hero-mobile.jpg') no-repeat;
     background-size: cover;
-    margin-bottom: 88px;
 }
 
 .hero h2 {

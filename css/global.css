@@ -51,8 +51,17 @@ body {
 /* Mobile first */
 section {
     width: 312px;
+    margin: 0 auto 88px;
+}
+
+section.hero {
+    width: 100%;
+    margin: 0;
+}
+
+.section-title {
+    width: 280px;
     margin: 0 auto;
-    margin-bottom: 88px;
 }
 
 .section-title h2 {
@@ -87,6 +96,10 @@ section {
 @media screen and (min-width: 768px) {
     section {
         width: 648px;
+    }
+
+    .section-title {
+        width: 100%;
     }
 
     .section-title h2 {

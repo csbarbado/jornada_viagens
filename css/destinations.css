@@ -1,14 +1,8 @@
-.destinations {
-    width: 312px;
-    margin: 0 auto;
-}
-
 .destinations-itens {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 40px;
-    margin-bottom: 88px;
 }
 
 .destinations-itens .item {
@@ -17,15 +11,6 @@
     height: 754px;
     box-sizing: border-box;
     text-align: center;
-}
-
-.destinations-itens .item header {
-    display: block;
-    background-color: transparent;
-    padding: 24px 16px;
-    position: static;
-    padding: 0;
-    margin-bottom: 24px;
 }
 
 .destinations-itens .item header .img-item-tokyo {
@@ -82,7 +67,6 @@
 
     .destinations-itens .item a.button {
         width: 280px;
-
         display: flex;
         justify-content: center;
     
