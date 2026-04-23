@@ -1,4 +1,4 @@
-.payments .image-gallery {
+.payments .content-container .image-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 24px;
@@ -6,37 +6,37 @@
     margin-top: 24px;
 }
 
-.payments .image-gallery .image.bag {
+.payments .content-container .image-gallery .image.first {
     background: url(../img/gallery1-mobile.png) no-repeat;
     background-size: cover;
 }
 
-.payments .image-gallery .image.passport {
+.payments .content-container .image-gallery .image.second {
     background: url(../img/gallery2-mobile.png) no-repeat;
     background-size: cover;
 }
 
-.payments .image-gallery .image.people {
+.payments .content-container .image-gallery .image.third {
     background: url(../img/gallery3-mobile.png) no-repeat;
     background-size: cover;
 }
 
-.payments .image-gallery .image.colspan-2 {
+.payments .content-container .image-gallery .image.colspan-2 {
     grid-column: span 2;
 }
 
 @media screen and (min-width:768px) {
-    .payments .image-gallery .image.first {
+    .payments .content-container .image-gallery .image.first {
         background: url(../img/gallery1-tablet.png) no-repeat;
         background-size: cover;
     }
 
-    .payments .image-gallery .image.second {
+    .payments .content-container .image-gallery .image.second {
         background: url(../img/gallery2-tablet.png) no-repeat;
         background-size: cover;
     }
 
-    .payments .image-gallery .image.third {
+    .payments .content-container .image-gallery .image.third {
         background: url(../img/gallery3-tablet.png) no-repeat;
         background-size: cover;
     }
