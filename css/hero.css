@@ -23,6 +23,57 @@
     text-align: center;
 }
 
+.package-hero {
+    width: 100%;
+    margin-bottom: 88px;
+}
+
+.package-bottom-hero {
+    width: 100%;
+    margin: 0;
+}
+
+.package-hero .hero-img,
+.package-bottom-hero .hero-img {
+    height: 400px;
+    width: 100%;
+}
+
+.package-hero .hero-img {
+    background: url(../img/pacote-de-viagens/japan-bg-hero-tablet.png) no-repeat;
+    background-size: cover;
+}
+
+.package-bottom-hero .hero-img {
+    background: url(../img/pacote-de-viagens/japan-bg-bottom-hero-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+.package-hero .hero-content {
+    padding: 65px 24px;
+}
+
+.package-hero .hero-content h1 {
+    font-size: 48px;
+    color: var(--text-secondary-color);
+    font-weight: var(--title-weight);
+}
+
+.package-hero .hero-content hr {
+    width: 180px;
+    height: 4px;
+    background-color: var(--secondary-color);
+    border: none;
+    margin: 16px 0 32px;
+}
+
+.package-hero .hero-content p {
+    font-size: 20px;
+    color: var(--text-secondary-color);
+    font-weight: var(--text-weight);
+    line-height: 32px;
+}
+
 @media screen and (min-width: 768px) {
     .hero .hero-img {
         height: 620px;
@@ -47,10 +98,12 @@
         background: url(../img/hero_desktop.jpg) no-repeat;
         background-size: cover;
     }
+
     .bottom-hero .hero-img {
         background: url(../img/bg-bottom-hero-desktop.png) no-repeat;
         background-size: cover;
     }
+
     .hero h2 {
         padding: 88px 120px;
     }
