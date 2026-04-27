@@ -37,11 +37,11 @@
 
 
 @media screen and (min-width: 768px) {
-    .destination-japao-items .item {
+    .contato-items .item {
         width: 648px;
     }
 
-    .destination-japao .item .img-item {
+    .contato-items .item .img-item {
         width: 100%;
         height: 452px;
     }
