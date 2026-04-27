@@ -1,0 +1,37 @@
+.contato-items {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.contato-items .item header h3 {
+    margin: 24px 0;
+}
+
+.contato-items .item p {
+    margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+    .contato-items .item {
+        width: 648px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .contato-items {
+        width: 900px;
+    }
+    .contato-items .item {
+        width: 100%;
+    }
+ 
+}
+
+@media screen and (min-width: 1440px) {
+    .contato-items {
+        width: 1200px;
+    }
+
+}
