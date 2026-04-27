@@ -71,6 +71,43 @@
     line-height: 32px;
 }
 
+/* BLOG */
+.blog-hero {
+    width: 100%;
+    margin-bottom: 88px;
+}
+
+.blog-hero .hero-img {
+    height: 460px;
+    background: url(../img/blog/hero-blog-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+.blog-hero .hero-content {
+    padding: 65px 24px;
+}
+
+.blog-hero .hero-content h1 {
+    font-size: 48px;
+    color: var(--text-secondary-color);
+    font-weight: var(--title-weight);
+}
+
+.blog-hero .hero-content hr {
+    width: 180px;
+    height: 4px;
+    background-color: var(--secondary-color);
+    border: none;
+    margin: 16px 0 32px;
+}
+
+.blog-hero .hero-content p {
+    font-size: 20px;
+    color: var(--text-secondary-color);
+    font-weight: var(--text-weight);
+    line-height: 32px;
+}
+
 @media screen and (min-width: 768px) {
     .hero .hero-img {
         height: 620px;
@@ -89,6 +126,7 @@
         font-size: 32px;
     }
 
+    /* PACOTES DE VIAGENS */
     .package-hero .hero-content {
         padding: 50px 60px;
     }
@@ -108,6 +146,23 @@
     .package-bottom-hero .hero-img {
         background: url(../img/pacote-de-viagens/japan-bg-bottom-hero-tablet.png) no-repeat;
         background-size: cover;
+    }
+
+    /* BLOG */
+    .blog-hero .hero-content {
+        padding: 50px 60px;
+    }
+
+    .blog-hero .hero-img {
+        height: 620px;
+        background: url(../img/blog/hero-blog-tablet.png) no-repeat;
+        background-size: cover;
+    }
+
+    .blog-hero .hero-content p {
+        width: 579px;
+        font-size: 32px;
+        line-height: 40px;
     }
 
 }
@@ -143,10 +198,27 @@
         background-size: cover;
     }
 
+    /* BLOG */
+    .blog-hero .hero-content {
+        padding: 50px 62px;
+    }
+
+    .blog-hero .hero-img {
+        background: url(../img/blog/hero-blog-desktop.png) no-repeat;
+        background-size: cover;
+    }
+
 }
 
 @media screen and (min-width: 1440px) {
+
+    /* PACOTES DE VIAGENS */
     .package-hero .hero-content {
+        padding: 80px 120px;
+    }
+
+    /* BLOG */
+    .blog-hero .hero-content {
         padding: 80px 120px;
     }
 }
@@ -156,7 +228,13 @@
         padding: 88px 160px;
     }
 
+    /* PACOTES DE VIAGENS */
     .package-hero .hero-content {
+        padding: 120px 360px;
+    }
+
+    /* BLOG */
+    .blog-hero .hero-content {
         padding: 120px 360px;
     }
 }

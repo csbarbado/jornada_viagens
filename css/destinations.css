@@ -32,6 +32,16 @@
     width: 100%;
 }
 
+/* Blog */
+.destinations .item.hiroshima .img-item {
+    background: url(../img/blog/Hiroshima-mobile.png);
+    background-size: cover;
+}
+.destinations .item.kyoto .img-item {
+    background: url(../img/blog/Kyoto-mobile.png);
+    background-size: cover;
+}
+
 @media screen and (min-width: 768px) {
     .destinations-itens .item {
         width: 648px;
