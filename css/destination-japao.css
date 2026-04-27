@@ -11,13 +11,19 @@
 }
 
 .destination-japao .item.chegada .img-item {
-    background: url(../img/blog/Tokyo-mobile-chegada.png);
+    background: url(../img/blog/Tokyo-chegada-mobile-tablet.png);
     background-size: cover;
 }
 
 .destination-japao .item.acomodacao .img-item {
-    background: url(../img/blog/Tokyo-mobile-acomodacao.png);
+    background: url(../img/blog/Tokyo-acomodacao-mobile.png);
     background-size: cover;
+}
+
+.destination-japao .item.acomodacao legend {
+    font-size: 14px;
+    font-weight: var(--text-weight);
+    line-height: 28px;
 }
 
 .destination-japao .item header h3 {
@@ -28,9 +34,7 @@
     margin-bottom: 24px;
 }
 
-.destination-japao .button {
-    width: 100%;
-}
+
 
 @media screen and (min-width: 768px) {
     .destination-japao-items .item {
@@ -42,13 +46,27 @@
         height: 452px;
     }
 
-    .destination-japao .item.tokyo .img-item {
-        background: url(../img/Tokyo-tablet-desktop.jpg);
+    .destination-japao-items .item.chegada {
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        gap: 24px;
+        height: 360px;
+    }
+
+    .destination-japao .item.chegada .text-item {
+        width: 50%;
+    }
+
+    .destination-japao .item.chegada .img-item {
+        width: 50%;
+        height: 100%;
+        background: url(../img/blog/Tokyo-chegada-mobile-tablet.png);
         background-size: cover;
     }
 
-    .destination-japao .item.osaka .img-item {
-        background: url(../img/Osaka-tablet-desktop.jpg);
+    .destination-japao .item.acomodacao .img-item {
+        background: url(../img/blog/Tokyo-acomodacao-tablet.png);
         background-size: cover;
     }
 
@@ -61,10 +79,21 @@
     .destination-japao {
         width: 900px;
     }
-
+    .destination-japao-items .item {
+        width: 100%;
+    }
     .destination-japao .item .img-item {
         width: 100%;
-        height: 452px;
+    }
+
+    .destination-japao .item.chegada .img-item {
+        background: url(../img/blog/Tokyo-chegada-desktop.png);
+        background-size: cover;
+    }
+
+    .destination-japao .item.acomodacao .img-item {
+        background: url(../img/blog/Tokyo-acomodacao-desktop.png);
+        background-size: cover;
     }
 }
 
@@ -73,7 +102,4 @@
         width: 1200px;
     }
 
-    .destination-japao-items {
-        flex-direction: row;
-    }
 }
