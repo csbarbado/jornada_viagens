@@ -91,6 +91,29 @@
         padding: 0 60px;
         font-size: 32px;
     }
+
+    .package-hero .hero-content {
+        padding: 50px 60px;
+    }
+
+    .package-hero .hero-img {
+        height: 620px;
+        background: url(../img/pacote-de-viagens/japan-bg-hero-tablet.png) no-repeat;
+        background-size: cover;
+    }
+
+    .package-hero .hero-content p {
+        width: 579px;
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .package-bottom-hero .hero-img {
+        height: 400px;
+        background: url(../img/pacote-de-viagens/japan-bg-bottom-hero-tablet.png) no-repeat;
+        background-size: cover;
+    }
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -107,10 +130,30 @@
     .hero h2 {
         padding: 88px 120px;
     }
-}
+    .package-hero .hero-content {
+        padding: 50px 62px;
+    }
+    .package-hero .hero-img {
+        background: url(../img/pacote-de-viagens/japan-bg-hero-desktop.png) no-repeat;
+        background-size: cover;
+    }
 
+    .package-bottom-hero .hero-img {
+        background: url(../img/pacote-de-viagens/japan-bg-bottom-hero-desktop.png) no-repeat;
+        background-size: cover;
+    }
+
+}
+@media screen and (min-width: 1440px) {
+        .package-hero .hero-content {
+        padding: 80px 120px;
+    }
+}
 @media screen and (min-width: 1920px) {
     .hero h2 {
         padding: 88px 160px;
+    }
+            .package-hero .hero-content {
+        padding: 120px 360px;
     }
 }
