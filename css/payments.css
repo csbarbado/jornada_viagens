@@ -79,6 +79,20 @@
         background: url(../img/gallery3-tablet.png) no-repeat;
         background-size: cover;
     }
+    .package-payments .content-container .image-gallery .image.first {
+        background: url(../img/pacote-de-viagens/gallery1-tablet.png) no-repeat;
+        background-size: cover;
+    }
+
+    .package-payments .content-container .image-gallery .image.second {
+        background: url(../img/pacote-de-viagens/gallery2-tablet.png) no-repeat;
+        background-size: cover;
+    }
+
+    .package-payments .content-container .image-gallery .image.third {
+        background: url(../img/pacote-de-viagens/gallery3-tablet.png) no-repeat;
+        background-size: cover;
+    }
 }
 
 @media screen and (min-width:1440px) {
@@ -92,6 +106,18 @@
     }
 
     .payments .image-gallery {
+        width: 790px;
+    }
+    .package-payments .content-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .package-payments .text-content {
+        width: 360px;
+    }
+
+    .package-payments .image-gallery {
         width: 790px;
     }
 }
