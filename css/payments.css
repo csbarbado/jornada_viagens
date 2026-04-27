@@ -27,11 +27,12 @@
 
 /* PACOTES DE VIAGENS */
 .package-payments .text-content h2 {
-  font-size: 40px;
-  font-weight: var(--title-weight);
-  margin-bottom: 24px;
-  text-align: left;
+    font-size: 40px;
+    font-weight: var(--title-weight);
+    margin-bottom: 24px;
+    text-align: left;
 }
+
 .package-payments .button {
     width: 100%;
     margin-top: 24px;
@@ -79,6 +80,8 @@
         background: url(../img/gallery3-tablet.png) no-repeat;
         background-size: cover;
     }
+
+    /* PACOTES DE VIAGENS */
     .package-payments .content-container .image-gallery .image.first {
         background: url(../img/pacote-de-viagens/gallery1-tablet.png) no-repeat;
         background-size: cover;
@@ -108,6 +111,8 @@
     .payments .image-gallery {
         width: 790px;
     }
+
+    /* PACOTES DE VIAGENS */
     .package-payments .content-container {
         display: flex;
         justify-content: space-between;
